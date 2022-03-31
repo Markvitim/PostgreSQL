@@ -1,7 +1,6 @@
 version: '3.1'
 
 services:
-
   postgresql:
     image: postgres:12-alpine
     ports:
@@ -9,9 +8,9 @@ services:
     volumes:
       - ./data:/var/lib/postgresql
     environment:
-      - POSTGRES_PASSWORD=markvitim
-      - POSTGRES_DB=db
-      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_DB=db-api
+      - POSTGRES_USER=user
 
 
 
