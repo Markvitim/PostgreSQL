@@ -3,9 +3,6 @@ Thumbs.db*
 HELP.md
 .gradle
 build/
-untraceable
-gradle
-
 
 ### STS ###
 .apt_generated
@@ -43,8 +40,6 @@ out/
 *.rar
 
 ### Exclusions ###
-#!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-!untraceable
-!gradle
