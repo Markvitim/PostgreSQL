@@ -4,6 +4,7 @@ HELP.md
 .gradle
 build/
 
+
 ### STS ###
 .apt_generated
 .classpath
@@ -43,3 +44,6 @@ out/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+!gradlew
+!gradlew.bat
+!settings.gradle
